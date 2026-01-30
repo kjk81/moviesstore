@@ -1,0 +1,38 @@
+
+# Chapters 1-3 (1 hr): https://teams.microsoft.com/l/meetingrecap?driveId=b%21UcqHpu7Vw0G5ropkFD-dqTHU-qEtoL5DnLXzeub5m8SkeduVHM1qQK4-gbz-h9gz&driveItemId=01XW3Q4QLK7O5WCILC45HJMNBI23OMLNYA&sitePath=https%3A%2F%2Fgtvault-my.sharepoint.com%2F%3Av%3A%2Fg%2Fpersonal%2Fkkastning3_gatech_edu%2FIQBq-7thIWLnTpY0KNbcxbcAAZQe-aFB_qHHVaFILVRzK-Y&fileUrl=https%3A%2F%2Fgtvault-my.sharepoint.com%2F%3Av%3A%2Fg%2Fpersonal%2Fkkastning3_gatech_edu%2FIQBq-7thIWLnTpY0KNbcxbcAAZQe-aFB_qHHVaFILVRzK-Y&threadId=19%3Ameeting_ZGJkYmM3YTktOTY0ZS00ZGE3LWE3YzAtZTJjZTU1YjhhNDg5%40thread.v2&organizerId=9c9232f5-844c-44b6-9ca7-993ebc4c5edd&tenantId=482198bb-ae7b-4b25-8b7a-6d7f32faa083&callId=a2b3cac5-a2a8-41c5-82e4-b4938077e604&threadType=Meeting&meetingType=MeetNow&subType=RecapSharingLink_RecapChiclet
+Attempted to create a venv but installed django globally instead
+    Will later reorganize into django into a virtual environment per textbook recommendation
+- Accidentally installed the wrong Django version, so rolled back to 5.0
+- Created an about page and home page with basic HTML using Django views to render templates
+- Created a base template with escape charcaters for code
+
+# Chapter 3 Finish (thought I was recording) 
+Encountered an error where Bootstrapping wasn't loading correctly into the site
+- Eliminated the root cause which was HTML code with incorrect whitespace
+
+# Chapters 4 - 6 (40 min): https://teams.microsoft.com/l/meetingrecap?driveId=b%21UcqHpu7Vw0G5ropkFD-dqTHU-qEtoL5DnLXzeub5m8SkeduVHM1qQK4-gbz-h9gz&driveItemId=01XW3Q4QIYYIR3HFYUWVF2HG64RGSVCCUC&sitePath=https%3A%2F%2Fgtvault-my.sharepoint.com%2F%3Av%3A%2Fg%2Fpersonal%2Fkkastning3_gatech_edu%2FIQAYwiOzlxS1S6Ob3ImlUQqCAXs7O2OSceBZ-MbiAsd1Gp0&fileUrl=https%3A%2F%2Fgtvault-my.sharepoint.com%2F%3Av%3A%2Fg%2Fpersonal%2Fkkastning3_gatech_edu%2FIQAYwiOzlxS1S6Ob3ImlUQqCAXs7O2OSceBZ-MbiAsd1Gp0&threadId=19%3Ameeting_ZGJkYmM3YTktOTY0ZS00ZGE3LWE3YzAtZTJjZTU1YjhhNDg5%40thread.v2&organizerId=9c9232f5-844c-44b6-9ca7-993ebc4c5edd&tenantId=482198bb-ae7b-4b25-8b7a-6d7f32faa083&callId=689875d1-e3dc-4ffe-9944-8f713458bcf3&threadType=Meeting&meetingType=MeetNow&subType=RecapSharingLink_RecapChiclet
+Created movies app and put mock data into views.py
+Used Django URLs to map integers to movie pages, using it via escape and {template_data.VALUE}
+Setup admin.
+Refactored to use database data instead of mock data.
+
+# Chapter 6 Finish - Chapter 9: https://teams.microsoft.com/l/meetingrecap?driveId=b%21UcqHpu7Vw0G5ropkFD-dqTHU-qEtoL5DnLXzeub5m8SkeduVHM1qQK4-gbz-h9gz&driveItemId=01XW3Q4QL2AIKBYXTYDZHZFFVUKL3IEBE2&sitePath=https%3A%2F%2Fgtvault-my.sharepoint.com%2F%3Av%3A%2Fg%2Fpersonal%2Fkkastning3_gatech_edu%2FIQB6AhQcXngeT5KWtFL2ggSaAZqu3IfdYyvo36G0XcMRlqk&fileUrl=https%3A%2F%2Fgtvault-my.sharepoint.com%2F%3Av%3A%2Fg%2Fpersonal%2Fkkastning3_gatech_edu%2FIQB6AhQcXngeT5KWtFL2ggSaAZqu3IfdYyvo36G0XcMRlqk&threadId=19%3Ameeting_ZGJkYmM3YTktOTY0ZS00ZGE3LWE3YzAtZTJjZTU1YjhhNDg5%40thread.v2&organizerId=9c9232f5-844c-44b6-9ca7-993ebc4c5edd&tenantId=482198bb-ae7b-4b25-8b7a-6d7f32faa083&callId=55663ccc-5888-4da0-b35f-7825890596d2&threadType=Meeting&meetingType=MeetNow&subType=RecapSharingLink_RecapChiclet
+Created new accounts app.
+Created a new signup page with error handling/displaying.
+- displays signup on GET request, else on form POST it redirects 
+Setup full auth with login, logout, and conditional navbar rendering
+
+# Chapter 9: https://teams.microsoft.com/l/meetingrecap?driveId=b%21UcqHpu7Vw0G5ropkFD-dqTHU-qEtoL5DnLXzeub5m8SkeduVHM1qQK4-gbz-h9gz&driveItemId=01XW3Q4QPKKZ5BOO2YKBEZ35EM5TZKF5HF&sitePath=https%3A%2F%2Fgtvault-my.sharepoint.com%2F%3Av%3A%2Fg%2Fpersonal%2Fkkastning3_gatech_edu%2FIQDqVnoXO1hQSZ30jOzyovTlAZhtiTCDX8yWHSVrJ3xp1b4&fileUrl=https%3A%2F%2Fgtvault-my.sharepoint.com%2F%3Av%3A%2Fg%2Fpersonal%2Fkkastning3_gatech_edu%2FIQDqVnoXO1hQSZ30jOzyovTlAZhtiTCDX8yWHSVrJ3xp1b4&threadId=19%3Ameeting_ZGJkYmM3YTktOTY0ZS00ZGE3LWE3YzAtZTJjZTU1YjhhNDg5%40thread.v2&organizerId=9c9232f5-844c-44b6-9ca7-993ebc4c5edd&tenantId=482198bb-ae7b-4b25-8b7a-6d7f32faa083&callId=52cfa182-dc10-4798-9a2a-844462148c68&threadType=Meeting&meetingType=MeetNow&subType=RecapSharingLink_RecapChiclet
+# Chapter 9 Finish - Chapter:
+Trying to fix bug where adding review doesn't work
+- fixed, another whitespace issue
+Added edit review function
+- if GET returns rendered edit_review page, else POST it updates it by getting the object
+- note: adding to urls.py is for exposing/creating urls to html files.
+- utilize url id addressing to pass values
+Added delete review
+Created a cart app
+- add to cart, index page, clear function
+Created Order and Item models
+- made it so user can see their orders (accounts)
+- can now purchase items via the cart

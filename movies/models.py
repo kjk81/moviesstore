@@ -17,3 +17,11 @@ class Review(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE)
     def __str__(self):
         return str(self.id) + ' - ' + self.movie.name
+    
+class Report(models.Model):
+    id = models.AutoField(primary_key=True)
+    review = models.ForeignKey(Review, on_delete=models.CASCADE)
+    date = models.DateTimeField(auto_now_add=True)
+    user = models.ForeignKey(User, on_delete=models.CASCADE)
+    def __str__(self):
+        return str(self.review) + ' - ' + str(self.id)

@@ -23,7 +23,7 @@ Created a new signup page with error handling/displaying.
 Setup full auth with login, logout, and conditional navbar rendering
 
 # Chapter 9: https://teams.microsoft.com/l/meetingrecap?driveId=b%21UcqHpu7Vw0G5ropkFD-dqTHU-qEtoL5DnLXzeub5m8SkeduVHM1qQK4-gbz-h9gz&driveItemId=01XW3Q4QPKKZ5BOO2YKBEZ35EM5TZKF5HF&sitePath=https%3A%2F%2Fgtvault-my.sharepoint.com%2F%3Av%3A%2Fg%2Fpersonal%2Fkkastning3_gatech_edu%2FIQDqVnoXO1hQSZ30jOzyovTlAZhtiTCDX8yWHSVrJ3xp1b4&fileUrl=https%3A%2F%2Fgtvault-my.sharepoint.com%2F%3Av%3A%2Fg%2Fpersonal%2Fkkastning3_gatech_edu%2FIQDqVnoXO1hQSZ30jOzyovTlAZhtiTCDX8yWHSVrJ3xp1b4&threadId=19%3Ameeting_ZGJkYmM3YTktOTY0ZS00ZGE3LWE3YzAtZTJjZTU1YjhhNDg5%40thread.v2&organizerId=9c9232f5-844c-44b6-9ca7-993ebc4c5edd&tenantId=482198bb-ae7b-4b25-8b7a-6d7f32faa083&callId=52cfa182-dc10-4798-9a2a-844462148c68&threadType=Meeting&meetingType=MeetNow&subType=RecapSharingLink_RecapChiclet
-# Chapter 9 Finish - Chapter:
+# Chapter 9 Finish - End:
 Trying to fix bug where adding review doesn't work
 - fixed, another whitespace issue
 Added edit review function
@@ -36,3 +36,8 @@ Created a cart app
 Created Order and Item models
 - made it so user can see their orders (accounts)
 - can now purchase items via the cart
+Uploaded and hosted on PythonAnywhere.
+Added Report option for Reviews.
+Styling seems a bit off for the footer./
+- 
+
